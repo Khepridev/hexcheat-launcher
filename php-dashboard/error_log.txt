@@ -1,0 +1,19 @@
+[06-May-2025 18:10:07 Europe/Berlin] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\site-lanc\install.php on line 255
+[06-May-2025 18:10:09 Europe/Berlin] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\site-lanc\install.php on line 255
+[06-May-2025 18:10:09 Europe/Berlin] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\site-lanc\install.php on line 255
+[06-May-2025 18:50:09 Europe/Berlin] PHP Warning:  Undefined array key "site_url" in C:\xampp\htdocs\site-lanc\install.php on line 143
+[09-May-2025 02:14:33 Europe/Berlin] Düzenlenecek Menü ID: 1
+[09-May-2025 02:14:33 Europe/Berlin] Menü Dil: tr
+[09-May-2025 02:14:33 Europe/Berlin] TR Menü Öğeleri: [{"id":1,"title":"testTR","url":"http:\/\/localhost\/site-lanc\/"},{"id":2,"title":"1testTR","url":"http:\/\/localhost\/site-lanc\/"}]
+[09-May-2025 02:14:33 Europe/Berlin] EN Menü Öğeleri: [{"id":1,"title":"testEN","url":"http:\/\/localhost\/site-lanc\/"},{"id":2,"title":"1testEN","url":"http:\/\/localhost\/site-lanc\/"}]
+[09-May-2025 02:14:33 Europe/Berlin] Menü bulundu: {"id":1,"title":"testTR","url":"http:\/\/localhost\/site-lanc\/"}
+[09-May-2025 02:18:57 Europe/Berlin] Düzenlenecek Menü ID: 1
+[09-May-2025 02:18:57 Europe/Berlin] Menü Dil: tr
+[09-May-2025 02:18:57 Europe/Berlin] TR Menü Öğeleri: [{"id":1,"title":"testTR000","url":"http:\/\/localhost\/site-lanc\/"},{"id":2,"title":"1testTR","url":"http:\/\/localhost\/site-lanc\/"}]
+[09-May-2025 02:18:57 Europe/Berlin] EN Menü Öğeleri: [{"id":1,"title":"testEN","url":"http:\/\/localhost\/site-lanc\/"},{"id":2,"title":"1testEN","url":"http:\/\/localhost\/site-lanc\/"}]
+[09-May-2025 02:18:57 Europe/Berlin] Menü bulundu: {"id":1,"title":"testTR000","url":"http:\/\/localhost\/site-lanc\/"}
+[09-May-2025 02:26:46 Europe/Berlin] Düzenlenecek Menü ID: 1
+[09-May-2025 02:26:46 Europe/Berlin] Menü Dil: tr
+[09-May-2025 02:26:46 Europe/Berlin] TR Menü Öğeleri: [{"id":1,"title":"testTR","url":"http:\/\/localhost\/site-lanc\/"},{"id":2,"title":"1testTR","url":"http:\/\/localhost\/site-lanc\/"}]
+[09-May-2025 02:26:46 Europe/Berlin] EN Menü Öğeleri: [{"id":1,"title":"testEN","url":"http:\/\/localhost\/site-lanc\/"},{"id":2,"title":"1testEN","url":"http:\/\/localhost\/site-lanc\/"}]
+[09-May-2025 02:26:46 Europe/Berlin] Menü bulundu: {"id":1,"title":"testTR","url":"http:\/\/localhost\/site-lanc\/"}

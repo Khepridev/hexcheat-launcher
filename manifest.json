@@ -1,0 +1,451 @@
+{
+    "version": "1.0.0",
+    "maintenance": {
+        "enabled": 0,
+        "message": {
+            "tr": "Bakım modundayız. Detaylı bilgi için <a href='https:\/\/test.com\/' class='text-blue-400 hover:text-blue-300'>tıklayın<\/a>.",
+            "en": "We are in maintenance mode. <a href='https:\/\/test.com\/' class='text-blue-400 hover:text-blue-300'>Click here<\/a> for details."
+        },
+        "url": "https:\/\/test.com\/"
+    },
+    "settings": {
+        "checkIntervals": {
+            "background": 30000,
+            "news": 30000,
+            "notice": 30000,
+            "menuItems": 30000,
+            "socialMedia": 30000,
+            "files": 30000,
+            "mp3_player": 30000
+        }
+    },
+    "logo": {
+        "url": "",
+        "width": 28,
+        "height": 28,
+        "link": "",
+        "text": {
+            "enabled": 0,
+            "content": "Test<span>Logo<\/span>",
+            "style": {
+                "cssLink": {
+                    "value": "",
+                    "customCSS": ""
+                }
+            }
+        }
+    },
+    "background": {
+        "mode": 2,
+        "imageUrl": "",
+        "videoUrl": "http:\/\/localhost\/site-lanc\/video\/01.mp4"
+    },
+    "importantNotice": {
+        "message": "Yeni güncelleme ile ilgili önemli bilgilendirme...\nhttps:\/\/www.google.com\/",
+        "date": "2024-03-17",
+        "type": "black",
+        "enabled": 0
+    },
+    "news": [
+        {
+            "id": 1,
+            "title": "test",
+            "description": "test",
+            "image": "http:\/\/localhost\/site-lanc\/files\/img\/file_681a9186c1e1b.png",
+            "date": "2025-05-07",
+            "url": "http:\/\/localhost\/site-lanc\/"
+        }
+    ],
+    "files": [
+        {
+            "path": "app\\Speed Click.exe",
+            "version": "1.0.0",
+            "url": "http:\/\/localhost\/php-site\/files\/Speed%20Click.exe",
+            "size": 5393408,
+            "hash": "b27d5b19943d22e1ef7db5f0d4fa39c72dc9b23a4cf7f2c5634489be98e6800e",
+            "main": 1
+        },
+        {
+            "path": "app\\settings.json",
+            "version": "1.0.0",
+            "url": "http:\/\/localhost\/php-site\/files\/settings.json",
+            "size": 945,
+            "hash": "5ec0f2025481cc04f45df2e3ca788a33382f8474ea2f5add8940beeb0cb2ff5b"
+        },
+        {
+            "path": "app\\test.txt",
+            "version": "1.0.0",
+            "url": "http:\/\/localhost\/php-site\/files\/test.txt",
+            "size": 11,
+            "hash": "fcb83e9d34c87810b6e7586b6be1eee05ec8d0b012f94244420fd1a2687f0408"
+        },
+        {
+            "path": "app\/VSCode.exe",
+            "version": "1.0.0",
+            "url": "http:\/\/localhost\/php-site\/files\/VSCode.exe",
+            "size": 104960024,
+            "hash": "62ece2a5bb11200ffc4fa52e70090453684702cbcab364ad91d340f83f80c89e"
+        },
+        {
+            "path": "app\/DiscordSetup.exe",
+            "version": "1.0.0",
+            "url": "http:\/\/localhost\/php-site\/files\/DiscordSetup.exe",
+            "size": 113998200,
+            "hash": "b36ad7a16215894a571700df684d635fe586d52a83285a1a4100953aa8838e7b"
+        }
+    ],
+    "apps": [
+        {
+            "id": 1,
+            "name": "Test",
+            "icon": "http:\/\/localhost\/site-lanc\/files\/img\/file_681a9186c1e1b.png",
+            "mainPath": "apps\/Test",
+            "version": "1.0.0",
+            "files": [
+                {
+                    "path": "apps\/Test\/Client Config.exe",
+                    "url": "http:\/\/localhost\/site-lanc\/apps\/Test\/Client Config.exe",
+                    "size": 5449216,
+                    "hash": "cda46eaf393c491a47cf1008eea77e5beee2b1451e30856cd487ec3c6b61c57c"
+                }
+            ]
+        }
+    ],
+    "lastUpdate": "2024-01-23T15:30:00Z",
+    "socialMedia": [
+        {
+            "id": 3,
+            "title": "GitHub",
+            "url": "https:\/\/github.com\/test",
+            "icon": "fab fa-github"
+        },
+        {
+            "id": 4,
+            "title": "Discord",
+            "url": "https:\/\/discord.gg\/test",
+            "icon": "fab fa-discord"
+        },
+        {
+            "id": 1,
+            "title": "YouTube",
+            "url": "https:\/\/youtube.com\/test",
+            "icon": "fab fa-youtube"
+        },
+        {
+            "id": 5,
+            "title": "Instagram",
+            "url": "https:\/\/instagram.com\/test",
+            "icon": "fab fa-instagram"
+        }
+    ],
+    "languages": {
+        "de": "Deutsch",
+        "ro": "România",
+        "it": "Italiano"
+    },
+    "translations": {
+        "en": {
+            "menuItems": [],
+            "loading": "Loading...",
+            "start": "Start",
+            "downloading": "Downloading...",
+            "news": "News",
+            "notices": [
+                {
+                    "id": 1,
+                    "message": "Important update information...",
+                    "date": "2024-03-15",
+                    "type": "info"
+                }
+            ],
+            "home": "Home",
+            "settings": "Settings",
+            "installPath": "Installation Path",
+            "select": "Select",
+            "back": "Back",
+            "notifications": "Notifications",
+            "notificationsEnabled": "Notifications are enabled",
+            "notificationsDisabled": "Notifications are disabled",
+            "newsNotifications": "News Notifications",
+            "newsNotificationsEnabled": "News notifications are enabled",
+            "newsNotificationsDisabled": "News notifications are disabled",
+            "notificationTitle": "Notification",
+            "newsNotificationTitle": "New News!",
+            "download": "Download",
+            "update": "Update",
+            "updateNotifications": "Update Notifications",
+            "updateNotificationsEnabled": "Update notifications are enabled",
+            "updateNotificationsDisabled": "Update notifications are disabled",
+            "updateAvailable": "New update is available",
+            "updateReady": "Update is ready to install",
+            "search": "Search Server...",
+            "allVersions": "All Versions",
+            "allStatus": "All Status",
+            "online": "Online",
+            "offline": "Offline",
+            "maintenance": "Maintenance",
+            "restart": "Restart",
+            "clientPathError": "Client path not found in manifest!",
+            "volume": "Volume",
+            "mute": "Mute",
+            "unmute": "Unmute",
+            "apps": "Apps",
+            "settingsSaved": "Settings saved successfully.",
+            "installPathChanged": "The default file path has been changed.",
+            "notification": "Notification",
+            "updateComplete": "Update Complete",
+            "downloadComplete": "Download Complete"
+        },
+        "tr": {
+            "menuItems": [],
+            "loading": "Yükleniyor...",
+            "start": "Başlat",
+            "downloading": "İndiriliyor...",
+            "news": "Haberler",
+            "notices": [
+                {
+                    "id": 1,
+                    "message": "Yeni güncelleme ile ilgili önemli bilgilendirme...",
+                    "date": "2024-03-15",
+                    "type": "info"
+                }
+            ],
+            "home": "Anasayfa",
+            "settings": "Ayarlar",
+            "installPath": "Kurulum Yolu",
+            "select": "Seç",
+            "back": "Geri",
+            "notifications": "Bildirimler",
+            "notificationsEnabled": "Bildirimler açık",
+            "notificationsDisabled": "Bildirimler kapalı",
+            "newsNotifications": "Haber Bildirimleri",
+            "newsNotificationsEnabled": "Haber bildirimleri açık",
+            "newsNotificationsDisabled": "Haber bildirimleri kapalı",
+            "notificationTitle": "Bildirim",
+            "newsNotificationTitle": "Yeni Haber!",
+            "download": "İndir",
+            "update": "Güncelle",
+            "updateNotifications": "Güncelleme Bildirimleri",
+            "updateNotificationsEnabled": "Güncelleme bildirimleri açık",
+            "updateNotificationsDisabled": "Güncelleme bildirimleri kapalı",
+            "updateAvailable": "Yeni güncelleme mevcut",
+            "updateReady": "Güncelleme kurulmaya hazır",
+            "search": "Sunucu Ara...",
+            "allVersions": "Tüm Sürümler",
+            "allStatus": "Tüm Durumlar",
+            "online": "Çevrimiçi",
+            "offline": "Çevrimdışı",
+            "maintenance": "Bakımda",
+            "restart": "Yeniden Başlat",
+            "clientPathError": "Manifest dosyasında client yolu bulunamadı!",
+            "volume": "Ses",
+            "mute": "Sesi Kapat",
+            "unmute": "Sesi Aç",
+            "apps": "Uygulamalar",
+            "settingsSaved": "Ayarlar başarıyla kaydedildi.",
+            "installPathChanged": "Varsayılan dosya yolu değiştirildi.",
+            "notification": "Bildirim",
+            "updateComplete": "Güncelleme Tamamlandı",
+            "downloadComplete": "İndirme Tamamlandı"
+        },
+        "de": {
+            "menuItems": [
+                {
+                    "id": 2,
+                    "title": "Shop",
+                    "url": "https:\/\/hexlob.com\/store"
+                },
+                {
+                    "id": 3,
+                    "title": "Support",
+                    "url": "https:\/\/hexlob.com\/support"
+                }
+            ],
+            "loading": "Wird geladen...",
+            "start": "Start",
+            "downloading": "Wird heruntergeladen...",
+            "news": "Nachrichten",
+            "notices": [
+                {
+                    "id": 1,
+                    "message": "Wichtige Update-Informationen...",
+                    "date": "2024-03-15",
+                    "type": "info"
+                }
+            ],
+            "home": "Startseite",
+            "settings": "Einstellungen",
+            "installPath": "Installationspfad",
+            "select": "Auswählen",
+            "back": "Zurück",
+            "notifications": "Benachrichtigungen",
+            "notificationsEnabled": "Benachrichtigungen sind aktiviert",
+            "notificationsDisabled": "Benachrichtigungen sind deaktiviert",
+            "newsNotifications": "Nachrichten-Benachrichtigungen",
+            "newsNotificationsEnabled": "Nachrichten-Benachrichtigungen sind aktiviert",
+            "newsNotificationsDisabled": "Nachrichten-Benachrichtigungen sind deaktiviert",
+            "notificationTitle": "Benachrichtigung",
+            "newsNotificationTitle": "Neue Nachricht!",
+            "download": "Herunterladen",
+            "update": "Aktualisieren",
+            "updateNotifications": "Update-Benachrichtigungen",
+            "updateNotificationsEnabled": "Update-Benachrichtigungen sind aktiviert",
+            "updateNotificationsDisabled": "Update-Benachrichtigungen sind deaktiviert",
+            "updateAvailable": "Neues Update verfügbar",
+            "updateReady": "Update ist bereit zur Installation",
+            "search": "Server suchen...",
+            "allVersions": "Alle Versionen",
+            "allStatus": "Alle Status",
+            "online": "Online",
+            "offline": "Offline",
+            "maintenance": "Wartung",
+            "restart": "Neustart",
+            "clientPathError": "Client-Pfad nicht im Manifest gefunden!",
+            "volume": "Lautstärke",
+            "mute": "Stumm",
+            "unmute": "Ton an",
+            "apps": "Anwendungen",
+            "settingsSaved": "Die Einstellungen wurden erfolgreich gespeichert.",
+            "installPathChanged": "Der Standard-Dateipfad wurde geändert.",
+            "notification": "Meldung",
+            "updateComplete": "Aktualisierung abgeschlossen",
+            "downloadComplete": "Vollständig herunterladen"
+        },
+        "ro": {
+            "menuItems": [
+                {
+                    "id": 2,
+                    "title": "Magazin",
+                    "url": "https:\/\/hexlob.com\/store"
+                },
+                {
+                    "id": 3,
+                    "title": "Suport",
+                    "url": "https:\/\/hexlob.com\/support"
+                }
+            ],
+            "loading": "Se încarcă...",
+            "start": "Start",
+            "downloading": "Se descarcă...",
+            "news": "Știri",
+            "notices": [
+                {
+                    "id": 1,
+                    "message": "Informații importante despre actualizare...",
+                    "date": "2024-03-15",
+                    "type": "info"
+                }
+            ],
+            "home": "Acasă",
+            "settings": "Setări",
+            "installPath": "Cale de Instalare",
+            "select": "Selectează",
+            "back": "Înapoi",
+            "notifications": "Notificări",
+            "notificationsEnabled": "Notificările sunt activate",
+            "notificationsDisabled": "Notificările sunt dezactivate",
+            "newsNotifications": "Notificări Știri",
+            "newsNotificationsEnabled": "Notificările pentru știri sunt activate",
+            "newsNotificationsDisabled": "Notificările pentru știri sunt dezactivate",
+            "notificationTitle": "Notificare",
+            "newsNotificationTitle": "Știre Nouă!",
+            "download": "Descarcă",
+            "update": "Actualizează",
+            "updateNotifications": "Notificări Actualizări",
+            "updateNotificationsEnabled": "Notificările pentru actualizări sunt activate",
+            "updateNotificationsDisabled": "Notificările pentru actualizări sunt dezactivate",
+            "updateAvailable": "O nouă actualizare este disponibilă",
+            "updateReady": "Actualizarea este gata de instalare",
+            "search": "Caută Server...",
+            "allVersions": "Toate Versiunile",
+            "allStatus": "Toate Statusurile",
+            "online": "Online",
+            "offline": "Offline",
+            "maintenance": "Mentenanță",
+            "restart": "Repornire",
+            "clientPathError": "Calea clientului nu a fost găsită în manifest!",
+            "volume": "Volum",
+            "mute": "Mut",
+            "unmute": "Activează Sunetul",
+            "apps": "Aplicații",
+            "settingsSaved": "Setările au fost salvate cu succes.",
+            "installPathChanged": "Calea implicită a fișierului a fost modificată.",
+            "notification": "Notificare",
+            "updateComplete": "Actualizare completă",
+            "downloadComplete": "Descărcare completă"
+        },
+        "it": {
+            "menuItems": [
+                {
+                    "id": 2,
+                    "title": "Negozio",
+                    "url": "https:\/\/hexlob.com\/store"
+                },
+                {
+                    "id": 3,
+                    "title": "Supporto",
+                    "url": "https:\/\/hexlob.com\/support"
+                }
+            ],
+            "loading": "Caricamento...",
+            "start": "Avvia",
+            "downloading": "Download in corso...",
+            "news": "Notizie",
+            "notices": [
+                {
+                    "id": 1,
+                    "message": "Informazioni importanti sull'aggiornamento...",
+                    "date": "2024-03-15",
+                    "type": "info"
+                }
+            ],
+            "home": "Home",
+            "settings": "Impostazioni",
+            "installPath": "Percorso di Installazione",
+            "select": "Seleziona",
+            "back": "Indietro",
+            "notifications": "Notifiche",
+            "notificationsEnabled": "Notifiche attivate",
+            "notificationsDisabled": "Notifiche disattivate",
+            "newsNotifications": "Notifiche Notizie",
+            "newsNotificationsEnabled": "Notifiche notizie attivate",
+            "newsNotificationsDisabled": "Notifiche notizie disattivate",
+            "notificationTitle": "Notifica",
+            "newsNotificationTitle": "Nuova Notizia!",
+            "download": "Scarica",
+            "update": "Aggiornamento",
+            "updateNotifications": "Notifiche Aggiornamenti",
+            "updateNotificationsEnabled": "Notifiche aggiornamenti attivate",
+            "updateNotificationsDisabled": "Notifiche aggiornamenti disattivate",
+            "updateAvailable": "Nuovo aggiornamento disponibile",
+            "updateReady": "Aggiornamento pronto per l'installazione",
+            "search": "Cerca Server...",
+            "allVersions": "Tutte le Versioni",
+            "allStatus": "Tutti gli Stati",
+            "online": "Online",
+            "offline": "Offline",
+            "maintenance": "Manutenzione",
+            "restart": "Riavvia",
+            "clientPathError": "Percorso client non trovato nel manifest!",
+            "volume": "Volume",
+            "mute": "Muto",
+            "unmute": "Attiva Audio",
+            "apps": "Applicazioni",
+            "settingsSaved": "Le impostazioni sono state salvate con successo.",
+            "installPathChanged": "Il percorso predefinito dei file è stato modificato.",
+            "notification": "Notifica",
+            "updateComplete": "Aggiornamento completato",
+            "downloadComplete": "Scaricare Completo"
+        }
+    },
+    "mp3_player_control": {
+        "enabled": 0,
+        "player": [
+            {
+                "title": "",
+                "image": "",
+                "url": ""
+            }
+        ]
+    }
+}

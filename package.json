@@ -1,0 +1,49 @@
+{
+  "name": "lanc",
+  "version": "1.0.0",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "vite build && electron .",
+    "dev": "vite build && electron .",
+    "build": "vite build && javascript-obfuscator ./dist --output ./dist --exclude '*.css,*.html'",
+    "package": "npm run build && electron-builder --win portable"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "electron-store": "^8.1.0",
+    "node-notifier": "^10.0.1",
+    "throttle": "^1.0.3",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1",
+    "javascript-obfuscator": "^4.1.1",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.0.0"
+  },
+  "build": {
+    "productName": "Hex Cheat",
+    "directories": {
+      "output": "release-builds"
+    },
+    "files": [
+      "dist/**/*",
+      "src/main/**/*"
+    ],
+    "asar": true,
+    "asarUnpack": [],
+    "win": {
+      "target": "portable",
+      "requestedExecutionLevel": "requireAdministrator",
+      "icon": "build/icon.ico"
+    },
+    "extraResources": [],
+    "compression": "maximum",
+    "removePackageScripts": true,
+    "removePackageKeywords": true
+  }
+}

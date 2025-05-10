@@ -1,0 +1,9 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "name": "01.mp4",
+            "url": "http:\/\/localhost\/site-lanc\/video\/01.mp4"
+        }
+    ]
+}

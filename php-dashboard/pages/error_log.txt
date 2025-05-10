@@ -1,0 +1,5 @@
+[06-May-2025 22:52:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\site-lanc\includes\header.php:148) in C:\xampp\htdocs\site-lanc\pages\files.php on line 103
+[07-May-2025 01:10:41 Europe/Berlin] PHP Warning:  Undefined array key "icon" in C:\xampp\htdocs\site-lanc\pages\notice.php on line 19
+[08-May-2025 23:23:06 Europe/Berlin] Yükleme yolu (Manifest): apps/Client Config/upload.txt
+[08-May-2025 23:23:06 Europe/Berlin] Yükleme yolu (Fiziksel): C:\xampp\htdocs\site-lanc\pages/../apps/Client Config/upload.txt
+[08-May-2025 23:23:06 Europe/Berlin] Yükleme klasörü: C:\xampp\htdocs\site-lanc\pages/../apps/Client Config

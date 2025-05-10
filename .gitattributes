@@ -1,0 +1,30 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Primary project languages
+*.vue linguist-language=Vue linguist-detectable=true
+*.js linguist-language=JavaScript linguist-detectable=true
+*.ts linguist-language=TypeScript linguist-detectable=true
+
+# Documentation
+*.md linguist-documentation
+README.* linguist-documentation
+
+# Dependencies and build output
+node_modules/* linguist-vendored
+dist/* linguist-generated
+build/* linguist-generated
+
+# Mark PHP as vendored since it's not the primary language
+php-dashboard/**/*.php linguist-vendored
+php-dashboard/**/*.sql linguist-vendored
+
+# Configuration files
+*.json linguist-language=JSON
+*.config.js linguist-language=JavaScript
+
+# Exclude vendor directories from language statistics
+Installation/* linguist-vendored
+php-dashboard/css/* linguist-vendored
+php-dashboard/webfonts/* linguist-vendored
+php-dashboard/fonts/* linguist-vendored

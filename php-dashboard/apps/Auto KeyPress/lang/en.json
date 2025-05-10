@@ -1,0 +1,10 @@
+{
+	"select_game_method": "Select Game Method",	
+	"select_game": "Select game and press F7 or Tab",	
+	"title": "Title :",
+	"game_settings": "Game Settings",
+	"auto_hit": "Auto Hit",
+	"bravery_cape": "Bravery Cape",
+	"set_key": "Set Key :",
+	"sleep": "Bravery Cape (ms)"
+}

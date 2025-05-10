@@ -1,0 +1,10 @@
+﻿{
+	"select_game_method": "Oyun Seçme Yöntemi",
+	"select_game": "Oyunu seç ve F7 veya Tab tuşuna bas",
+	"title": "Başlık :",
+	"game_settings": "Oyun Ayarları",
+	"auto_hit": "Oto Vuruş",
+	"bravery_cape": "Cesaret Pelerin",
+	"set_key": "Tuş Ayarla :",
+	"sleep": "Cesaret Pelerini (ms)"
+}

@@ -1,0 +1,15 @@
+# Increase upload limits for large videos
+php_value upload_max_filesize 1024M
+php_value post_max_size 1100M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_value memory_limit 256M
+
+# Enable PHP error logging
+php_flag log_errors on
+php_value error_log error_log.txt
+
+# Increase timeout for large uploads
+<IfModule mod_reqtimeout.c>
+  RequestReadTimeout header=60,MinRate=500 body=600,MinRate=500
+</IfModule> 
